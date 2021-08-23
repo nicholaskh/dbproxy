@@ -1,0 +1,17 @@
+driver_name = "mysql"
+
+[gaea]
+	username = "user1"
+	password = "pwd1"
+	network  = "tcp"
+	server   = "127.0.0.1"
+	port     = 13306
+	database = "test_db"
+
+[mysql]
+	user = "operation_rw"
+	password = "deAf965b741440fAA45d474e2486d79e"
+	network  = "tcp"
+	server   = "10.90.29.171"
+	port     = 3306
+	database = "test_db"

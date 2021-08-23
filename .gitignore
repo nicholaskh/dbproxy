@@ -1,0 +1,16 @@
+vendor
+y.output
+bin
+logs
+.coverage.*
+.vscode
+
+*.swp
+*.swo
+.idea
+
+go.sum
+.DS_Store
+etc/file2/namespace/test_namespace_1.json
+etc/gaea.ini
+etc/gaea_cc.ini

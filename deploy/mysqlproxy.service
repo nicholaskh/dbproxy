@@ -1,0 +1,13 @@
+[Unit]
+Description=MySQL Proxy
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/www/mysqlproxy
+ExecStart=/home/www/mysqlproxy/bin/gaea -config /home/www/mysqlproxy/etc/gaea.ini
+LimitNOFILE = 1000000
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,55 @@
+{
+  "name": "test_namespace_1",
+  "online": true,
+  "master_dc": true,
+  "read_only": false,
+  "allowed_dbs": {
+    "test_db": true
+  },
+  "slow_sql_time": "1000",
+  "black_sql": [
+    ""
+  ],
+  "allowed_ip": null,
+  "slices": [
+    {
+      "name": "slice-0",
+      "user_name": "operation_rw",
+      "password": "deAf965b741440fAA45d474e2486d79e",
+      "master": "10.90.29.171:3306",
+      "slaves": [
+        "10.90.29.171:3306"
+      ],
+      "statistic_slaves": null,
+      "capacity": 12,
+      "max_capacity": 24,
+      "idle_timeout": 60
+    }
+  ],
+  "shard_rules": [
+    {
+      "db": "test_db",
+      "table": "test_tbl",
+      "type": "hash",
+      "key": "id",
+      "locations": [
+        2
+      ],
+      "slices": [
+        "slice-0"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_name": "user1",
+      "password": "pwd1",
+      "namespace": "test_namespace_1",
+      "rw_flag": 2,
+      "rw_split": 1,
+      "other_property": 0
+    }
+  ],
+  "default_slice": "slice-0",
+  "global_sequences": null
+}

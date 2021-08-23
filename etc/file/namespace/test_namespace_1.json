@@ -1,0 +1,43 @@
+{
+    "name": "test_namespace_1",
+    "online": true,
+    "master_dc": false,
+    "read_only": false,
+    "allowed_dbs": {
+	"sbtest_data0": true,
+        "infra_zeus": true
+    },
+    "slow_sql_time": "1000",
+    "black_sql": [
+        ""
+    ],
+    "allowed_ip": null,
+    "slices": [
+        {
+            "name": "slice-0",
+            "user_name": "test",
+            "password": "20062320abcd!@#$",
+            "master": "10.90.73.43:4306",
+            "slaves": ["10.90.73.43:8306"],
+	    "slave_dc_master": "10.90.73.43:4306",
+            "slave_dc_slaves": ["10.90.73.43:8306"],
+            "statistic_slaves": null,
+            "capacity": 1,
+            "max_capacity": 2,
+            "idle_timeout": 60
+        }
+    ],
+    "shard_rules": null,
+    "users": [
+        {
+            "user_name": "test",
+            "password": "20062320abcd!@#$",
+            "namespace": "test_namespace_1",
+            "rw_flag": 2,
+            "rw_split": 1,
+            "other_property": 0
+        }
+    ],
+    "default_slice": "slice-0",
+    "global_sequences": null
+}
