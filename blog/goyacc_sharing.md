@@ -3,7 +3,7 @@
 
 由于分表分库涉及到诸多底层逻辑：分片规则、分片路由、数据聚合等，以及当现有架构不足以支撑业务数据拓展时，我们往往需要对现有集群扩容，比如在现有分片基础上增加新的分片。而扩容的过程中又需要涉及到数据迁移，对于业务来说，平滑的在线扩容一直以来都是一个老大难的问题。
 
-![DB扩容.png](http://ttc-tal.oss-cn-beijing.aliyuncs.com/1610423408/DB%E6%89%A9%E5%AE%B9.png)
+![DB扩容.png](https://github.com/nicholaskh/dbproxy/blob/master/blog/images/DB%E6%89%A9%E5%AE%B9.png)
 
 因此我们开发了一套Mysql Proxy，来解决业务开发过程中遇到的以上诸多问题，帮助业务处理架构的底层逻辑，使业务开发能够更加聚焦于上层的业务逻辑。Mysql Proxy介绍猛戳[MySQL Proxy](https://cloud.xesv5.com/docs/mysqlproxy/)。
 
@@ -38,7 +38,7 @@ SQL Parser的作用是让我们能够通过代码解析，识别出SQL语句中�
 我们先来看一下yacc的执行结果：**抽象语法树（Abstract Syntax Tree，AST）**。
 比如，对于以上的SQL语句，yacc执行后的结果如下：
 
-![SelectStmtAst.png](http://ttc-tal.oss-cn-beijing.aliyuncs.com/1610423764/SelectStmtAst.png)
+![SelectStmtAst.png](https://github.com/nicholaskh/dbproxy/blob/master/blog/images/SelectStmtAst.png)
 
 我们看到解析结果是一棵树。树根是SelectStmt，分支分别是：
 ```go
@@ -86,7 +86,7 @@ if Where.L == "id" {
 
 下面我们来看看yacc & lexer具体的执行过程：
 
-![yacclex.png](http://ttc-tal.oss-cn-beijing.aliyuncs.com/1610438126/yacc%2Blex.png)
+![yacclex.png](https://github.com/nicholaskh/dbproxy/blob/master/blog/images/yacc%2Blex.png)
 
 如上图所示，我们看到解析可分为以下几个步骤：
 第一步，是给SQL语句中的每一个单词做词法分析，确定词性，类似传统语法里的“主”、“谓”、“宾”。这一步由Lex负责。
