@@ -14,3 +14,6 @@ go.sum
 etc/file2/namespace/test_namespace_1.json
 etc/gaea.ini
 etc/gaea_cc.ini
+
+dbproxy
+dbproxy-cc
