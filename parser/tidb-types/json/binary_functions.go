@@ -25,7 +25,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // Type returns type of BinaryJSON as string.

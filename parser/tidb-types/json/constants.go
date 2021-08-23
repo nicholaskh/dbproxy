@@ -17,8 +17,8 @@ import (
 	"encoding/binary"
 	"unicode/utf8"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 // TypeCode indicates JSON type.

@@ -19,7 +19,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/format"
 )
 
 // Op is opcode type.

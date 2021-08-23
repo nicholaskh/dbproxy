@@ -19,9 +19,9 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/terror"
-	"github.com/dbproxy/util/testleak"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/util/testleak"
 )
 
 func TestT(t *testing.T) {

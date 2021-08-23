@@ -18,8 +18,8 @@ import (
 
 	"fmt"
 
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/parser/ast"
 )
 
 func TestGetVariableExprResult(t *testing.T) {

@@ -17,8 +17,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 // ClientConn session client connection

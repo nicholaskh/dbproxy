@@ -17,7 +17,7 @@ package plan
 import (
 	"testing"
 
-	"github.com/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/proxy/router"
 )
 
 func TestSimpleSelectShardMycatMod(t *testing.T) {

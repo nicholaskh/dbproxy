@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/dbproxy/backend"
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/proxy/sequence"
+	"github.com/nicholaskh/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/proxy/sequence"
 )
 
 type SQLTestcase struct {

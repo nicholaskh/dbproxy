@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/backend"
 )
 
 // MySQLSequence struct of sequence number with specific sequence name

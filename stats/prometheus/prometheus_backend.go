@@ -7,8 +7,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/stats"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/stats"
 )
 
 // PromBackend implements PullBackend using Prometheus as the backing metrics storage.

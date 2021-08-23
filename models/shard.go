@@ -16,7 +16,7 @@ package models
 
 import (
 	"fmt"
-	"github.com/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/core/errors"
 	"regexp"
 	"strconv"
 )

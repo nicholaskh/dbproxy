@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dbproxy/cc/proxy"
-	"github.com/dbproxy/core"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/cc/proxy"
+	"github.com/nicholaskh/dbproxy/core"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 const (

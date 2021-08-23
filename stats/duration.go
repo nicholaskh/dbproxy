@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // CounterDuration exports a time.Duration as counter.

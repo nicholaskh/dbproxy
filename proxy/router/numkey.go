@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/core/errors"
 )
 
 const (

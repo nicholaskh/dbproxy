@@ -32,12 +32,12 @@ import __yyfmt__ "fmt"
 import (
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/auth"
-	"github.com/dbproxy/parser/model"
-	"github.com/dbproxy/parser/opcode"
-	"github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/auth"
+	"github.com/nicholaskh/dbproxy/parser/model"
+	"github.com/nicholaskh/dbproxy/parser/opcode"
+	"github.com/nicholaskh/dbproxy/parser/types"
 )
 
 type yySymType struct {

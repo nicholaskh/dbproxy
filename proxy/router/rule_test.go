@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 func TestGetRealDatabases(t *testing.T) {

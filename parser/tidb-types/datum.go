@@ -24,12 +24,12 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/stmtctx"
-	"github.com/dbproxy/parser/terror"
-	"github.com/dbproxy/parser/tidb-types/json"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/stmtctx"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/parser/tidb-types/json"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // Kind constants.

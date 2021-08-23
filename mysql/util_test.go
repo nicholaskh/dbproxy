@@ -32,7 +32,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 func TestCalcPassword(t *testing.T) {

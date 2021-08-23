@@ -20,8 +20,8 @@ package types
 import (
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

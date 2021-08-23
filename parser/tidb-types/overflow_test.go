@@ -18,7 +18,7 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/util/testleak"
+	"github.com/nicholaskh/dbproxy/util/testleak"
 )
 
 var _ = Suite(&testOverflowSuite{})

@@ -36,7 +36,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // FieldData means filed data, is []byte

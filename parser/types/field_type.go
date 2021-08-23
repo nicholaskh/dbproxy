@@ -18,8 +18,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/format"
 )
 
 // UnspecifiedLength is unspecified length.

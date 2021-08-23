@@ -15,8 +15,8 @@
 package plan
 
 import (
-	"github.com/dbproxy/parser/ast"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 // BinaryOperationFieldtype declares field type of binary operation

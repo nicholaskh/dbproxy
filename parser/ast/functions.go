@@ -20,9 +20,9 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/model"
-	"github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/model"
+	"github.com/nicholaskh/dbproxy/parser/types"
 )
 
 var (

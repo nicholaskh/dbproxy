@@ -22,16 +22,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dbproxy/backend"
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/proxy/plan"
-	"github.com/dbproxy/util"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/proxy/plan"
+	"github.com/nicholaskh/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 const (

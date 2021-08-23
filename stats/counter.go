@@ -19,8 +19,8 @@ package stats
 import (
 	"strconv"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // Counter tracks a cumulative count of a metric.

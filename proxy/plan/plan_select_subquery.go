@@ -17,8 +17,8 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/proxy/router"
 )
 
 // SubqueryColumnNameRewriteVisitor visit ColumnNameExpr in subquery, check if need decorate, and then decorate it.

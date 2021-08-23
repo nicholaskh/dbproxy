@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 // Stats proxy stats

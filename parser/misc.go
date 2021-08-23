@@ -16,7 +16,7 @@ package parser
 import (
 	"strings"
 
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 func isLetter(ch rune) bool {

@@ -19,8 +19,8 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 // RoundMode is the type for round mode.

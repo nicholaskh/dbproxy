@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log"
 )
 
 const (

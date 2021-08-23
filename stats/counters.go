@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log"
 )
 
 // counters is similar to expvar.Map, except that it doesn't allow floats.

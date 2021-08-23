@@ -22,15 +22,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/backend"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/proxy/plan"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/proxy/sequence"
-	"github.com/dbproxy/util"
-	"github.com/dbproxy/util/cache"
+	"github.com/nicholaskh/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/proxy/plan"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/proxy/sequence"
+	"github.com/nicholaskh/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/util/cache"
 )
 
 const (

@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log"
 )
 
 const defaultEmitPeriod = 60 * time.Second

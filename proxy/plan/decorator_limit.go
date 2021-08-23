@@ -15,8 +15,8 @@
 package plan
 
 import (
-	"github.com/dbproxy/parser/ast"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 // NeedRewriteLimitOrCreateRewrite check if SelectStmt need rewrite limit clause,

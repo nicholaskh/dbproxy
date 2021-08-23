@@ -16,8 +16,8 @@ package types
 import (
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/parser/stmtctx"
-	"github.com/dbproxy/util/testleak"
+	"github.com/nicholaskh/dbproxy/parser/stmtctx"
+	"github.com/nicholaskh/dbproxy/util/testleak"
 )
 
 var _ = Suite(&testBinaryLiteralSuite{})

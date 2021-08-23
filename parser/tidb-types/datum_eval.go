@@ -17,7 +17,7 @@ import (
 	"github.com/cznic/mathutil"
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/opcode"
+	"github.com/nicholaskh/dbproxy/parser/opcode"
 )
 
 // ComputePlus computes the result of a+b.

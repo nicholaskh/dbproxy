@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 var lastID, count sync2.AtomicInt64

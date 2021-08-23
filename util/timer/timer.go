@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // Out-of-band messages

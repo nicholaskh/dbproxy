@@ -21,11 +21,11 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/tidb-types"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/tidb-types"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // The purpose of driver package is to decompose the dependency of the parser and

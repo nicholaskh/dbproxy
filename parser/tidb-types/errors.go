@@ -14,9 +14,9 @@
 package types
 
 import (
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/terror"
-	parser_types "github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	parser_types "github.com/nicholaskh/dbproxy/parser/types"
 )
 
 var (

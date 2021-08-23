@@ -22,10 +22,10 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/opcode"
-	"github.com/dbproxy/parser/terror"
-	ast "github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/opcode"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	ast "github.com/nicholaskh/dbproxy/parser/types"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

@@ -20,7 +20,7 @@ import (
 
 	"github.com/go-ini/ini"
 
-	"github.com/dbproxy/core"
+	"github.com/nicholaskh/dbproxy/core"
 )
 
 const (

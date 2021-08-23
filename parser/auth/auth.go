@@ -21,8 +21,8 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 // UserIdentity represents username and hostname.

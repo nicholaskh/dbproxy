@@ -31,7 +31,7 @@ package router
 import (
 	"testing"
 
-	"github.com/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/core/errors"
 )
 
 func testCheckList(t *testing.T, l []int, checkList ...int) {

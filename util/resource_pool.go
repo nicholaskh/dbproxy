@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dbproxy/util/sync2"
-	"github.com/dbproxy/util/timer"
+	"github.com/nicholaskh/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/timer"
 )
 
 var (

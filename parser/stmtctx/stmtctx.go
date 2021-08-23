@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 const (

@@ -16,9 +16,9 @@ package types
 import (
 	"strconv"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/tidb-types/json"
-	ast "github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/tidb-types/json"
+	ast "github.com/nicholaskh/dbproxy/parser/types"
 )
 
 // UnspecifiedLength is unspecified length.

@@ -17,7 +17,7 @@ package util
 import (
 	"bytes"
 
-	"github.com/dbproxy/util/bucketpool"
+	"github.com/nicholaskh/dbproxy/util/bucketpool"
 )
 
 const (

@@ -17,10 +17,10 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // UpdatePlan is the plan for update statement

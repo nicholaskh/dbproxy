@@ -19,10 +19,10 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/parser"
-	. "github.com/dbproxy/parser/ast"
-	. "github.com/dbproxy/parser/format"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser"
+	. "github.com/nicholaskh/dbproxy/parser/ast"
+	. "github.com/nicholaskh/dbproxy/parser/format"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 var _ = Suite(&testCacheableSuite{})

@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
 )
 
 func BenchmarkSelectStmtCheckShard(b *testing.B) {

@@ -16,8 +16,8 @@ package parser_test
 import (
 	"fmt"
 
-	"github.com/dbproxy/parser"
-	_ "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser"
+	_ "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 // This example show how to parse a text sql into ast.

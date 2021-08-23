@@ -20,8 +20,8 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 // Global error instances.

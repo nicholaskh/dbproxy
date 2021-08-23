@@ -22,9 +22,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // DirectConnection means connection to backend mysql

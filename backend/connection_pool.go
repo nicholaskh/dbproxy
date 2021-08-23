@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 const (

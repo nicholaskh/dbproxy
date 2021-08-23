@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 func TestNodeToString(t *testing.T) {

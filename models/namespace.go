@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/util"
-	"github.com/dbproxy/util/crypto"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/util/crypto"
 )
 
 // Namespace means namespace model stored in etcd

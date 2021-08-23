@@ -22,9 +22,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // DefaultCapability means default capability

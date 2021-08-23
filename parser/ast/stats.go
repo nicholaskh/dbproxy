@@ -16,8 +16,8 @@ package ast
 import (
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/model"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/model"
 )
 
 var (

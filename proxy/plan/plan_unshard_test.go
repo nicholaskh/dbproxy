@@ -3,7 +3,7 @@ package plan
 import (
 	"testing"
 
-	"github.com/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/backend"
 )
 
 func TestUnshardPlan(t *testing.T) {

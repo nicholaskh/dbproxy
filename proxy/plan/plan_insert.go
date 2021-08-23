@@ -17,14 +17,14 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/proxy/sequence"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/proxy/sequence"
+	"github.com/nicholaskh/dbproxy/util"
 	"sort"
 )
 

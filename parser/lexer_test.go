@@ -19,7 +19,7 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 var _ = Suite(&testLexerSuite{})

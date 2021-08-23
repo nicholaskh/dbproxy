@@ -26,7 +26,7 @@ import (
 
 	"github.com/coreos/etcd/client"
 
-	"github.com/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log"
 )
 
 // ErrClosedEtcdClient means etcd client closed

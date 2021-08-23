@@ -17,9 +17,9 @@ package util
 import (
 	"strings"
 
-	"github.com/dbproxy/parser/format"
-	types "github.com/dbproxy/parser/tidb-types"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	types "github.com/nicholaskh/dbproxy/parser/tidb-types"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 // GetValueExprResult copy from ValueExpr.Restore()

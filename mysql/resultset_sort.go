@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 const (

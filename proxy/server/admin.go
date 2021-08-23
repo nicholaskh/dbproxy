@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/util"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 )

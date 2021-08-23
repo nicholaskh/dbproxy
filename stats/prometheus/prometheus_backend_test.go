@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dbproxy/stats"
+	"github.com/nicholaskh/dbproxy/stats"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

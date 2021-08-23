@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/emirpasic/gods/maps/treemap"
-	"github.com/dbproxy/util"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // MycatPartitionModShard mycat route algorithm: PartitionByMod

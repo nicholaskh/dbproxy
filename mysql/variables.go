@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/core/errors"
 )
 
 type verifyFunc func(interface{}) error

@@ -23,10 +23,10 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	pformat "github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	pformat "github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 const (

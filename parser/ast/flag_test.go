@@ -18,8 +18,8 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/parser/ast"
 )
 
 func TestT(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/stmtctx"
-	"github.com/dbproxy/util/testleak"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/stmtctx"
+	"github.com/nicholaskh/dbproxy/util/testleak"
 )
 
 var _ = Suite(&testCompareSuite{})

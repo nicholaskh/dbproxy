@@ -18,9 +18,9 @@ package ast
 import (
 	"io"
 
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/model"
-	"github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/model"
+	"github.com/nicholaskh/dbproxy/parser/types"
 )
 
 // Node is the basic element of the AST.

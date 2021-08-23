@@ -40,8 +40,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 /*由分片ID找到分片，可用文件中的函数*/

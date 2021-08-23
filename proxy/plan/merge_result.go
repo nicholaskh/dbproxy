@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/util/hack"
-	"github.com/dbproxy/util/math"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/math"
 )
 
 // ResultRow is one Row in Result

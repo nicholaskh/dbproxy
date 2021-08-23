@@ -3,8 +3,8 @@ package plan
 import (
 	"testing"
 
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 func TestExecuteIn(t *testing.T) {

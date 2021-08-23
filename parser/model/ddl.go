@@ -22,7 +22,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/parser/terror"
 )
 
 // ActionType is the type for DDL action.

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 func TestLimitSelectResult(t *testing.T) {

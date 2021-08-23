@@ -21,9 +21,9 @@ import (
 	"github.com/pingcap/errors"
 	tipb "github.com/pingcap/tipb/go-tipb"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/auth"
-	"github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/auth"
+	"github.com/nicholaskh/dbproxy/parser/types"
 )
 
 // SchemaState is the state for schema elements.

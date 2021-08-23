@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // Histogram tracks counts and totals while

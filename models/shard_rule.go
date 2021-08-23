@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/core/errors"
 )
 
 var ruleVerifyFuncMapping = map[string]func(shard *Shard) error{

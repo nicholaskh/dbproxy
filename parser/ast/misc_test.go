@@ -16,9 +16,9 @@ package ast_test
 import (
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/parser"
-	. "github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/auth"
+	"github.com/nicholaskh/dbproxy/parser"
+	. "github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/auth"
 )
 
 var _ = Suite(&testMiscSuite{})

@@ -36,8 +36,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 var p = &mysql.Field{Name: []byte("?")}

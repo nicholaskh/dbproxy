@@ -16,12 +16,12 @@ package plan
 
 import (
 	"fmt"
-	"github.com/dbproxy/backend"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/proxy/sequence"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/proxy/sequence"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // constants of ShardType

@@ -25,16 +25,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/log/xlog"
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser"
-	"github.com/dbproxy/stats"
-	"github.com/dbproxy/stats/prometheus"
-	"github.com/dbproxy/util"
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log/xlog"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser"
+	"github.com/nicholaskh/dbproxy/stats"
+	"github.com/nicholaskh/dbproxy/stats/prometheus"
+	"github.com/nicholaskh/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // LoadAndCreateManager load namespace config, and create manager

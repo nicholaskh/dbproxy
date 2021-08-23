@@ -16,8 +16,8 @@ package server
 import (
 	"testing"
 
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 type userinfo struct {

@@ -16,8 +16,8 @@ package ast_test
 import (
 	. "github.com/pingcap/check"
 
-	. "github.com/dbproxy/parser/ast"
-	_ "github.com/dbproxy/parser/tidb-types/parser_driver"
+	. "github.com/nicholaskh/dbproxy/parser/ast"
+	_ "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 var _ = Suite(&testExpressionsSuite{})

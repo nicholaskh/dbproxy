@@ -17,12 +17,12 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/opcode"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/opcode"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // SelectPlan is the plan for select statement

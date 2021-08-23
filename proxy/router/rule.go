@@ -34,8 +34,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 const (

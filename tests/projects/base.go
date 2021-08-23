@@ -3,7 +3,7 @@ package projects
 import (
 	"database/sql"
 	"fmt"
-	"github.com/dbproxy/tests/conf"
+	"github.com/nicholaskh/dbproxy/tests/conf"
 	"reflect"
 	"strings"
 

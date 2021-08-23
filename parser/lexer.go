@@ -21,7 +21,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 var _ = yyLexer(&Scanner{})

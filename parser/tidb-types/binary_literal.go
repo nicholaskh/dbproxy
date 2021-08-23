@@ -24,7 +24,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/stmtctx"
+	"github.com/nicholaskh/dbproxy/parser/stmtctx"
 )
 
 // BinaryLiteral is the internal type for storing bit / hex literal type.

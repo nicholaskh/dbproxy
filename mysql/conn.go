@@ -39,8 +39,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dbproxy/util/bucketpool"
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/bucketpool"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 const (

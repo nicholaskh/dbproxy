@@ -38,7 +38,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // This file contains the data encoding and decoding functions.

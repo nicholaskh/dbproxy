@@ -17,7 +17,7 @@ package proxy
 import (
 	"encoding/json"
 
-	"github.com/dbproxy/util/requests"
+	"github.com/nicholaskh/dbproxy/util/requests"
 )
 
 // APIClient api client

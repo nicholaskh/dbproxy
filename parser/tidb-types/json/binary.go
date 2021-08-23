@@ -27,8 +27,8 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/parser/terror"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 /*

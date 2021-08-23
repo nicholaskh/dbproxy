@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dbproxy/backend"
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/backend"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // UnshardPlan is the plan for unshard statement

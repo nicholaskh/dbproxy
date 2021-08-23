@@ -17,7 +17,7 @@ package log
 import (
 	"fmt"
 
-	"github.com/dbproxy/log/xlog"
+	"github.com/nicholaskh/dbproxy/log/xlog"
 )
 
 var logger Logger

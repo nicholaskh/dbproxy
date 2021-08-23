@@ -19,12 +19,12 @@ import (
 	"io"
 	"sort"
 
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
-	"github.com/dbproxy/parser/types"
-	"github.com/dbproxy/proxy/router"
-	"github.com/dbproxy/util"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/util"
 )
 
 // type check

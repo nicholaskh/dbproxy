@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 type Router struct {

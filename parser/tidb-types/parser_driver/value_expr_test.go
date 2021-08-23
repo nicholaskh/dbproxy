@@ -19,8 +19,8 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/tidb-types"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/tidb-types"
 )
 
 var _ = Suite(&testValueExprRestoreSuite{})

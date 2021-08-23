@@ -22,13 +22,13 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 
-	"github.com/dbproxy/mysql"
-	"github.com/dbproxy/parser/ast"
-	. "github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/model"
-	"github.com/dbproxy/parser/terror"
-	types "github.com/dbproxy/parser/tidb-types"
-	driver "github.com/dbproxy/parser/tidb-types/parser_driver"
+	"github.com/nicholaskh/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	. "github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/model"
+	"github.com/nicholaskh/dbproxy/parser/terror"
+	types "github.com/nicholaskh/dbproxy/parser/tidb-types"
+	driver "github.com/nicholaskh/dbproxy/parser/tidb-types/parser_driver"
 )
 
 func TestT(t *testing.T) {
@@ -2931,7 +2931,7 @@ func (wfc *windowFrameBoundChecker) Leave(inNode ast.Node) (node ast.Node, ok bo
 }
 
 // For issue #51
-// See https://github.com/dbproxy/parser/pull/51 for details
+// See https://github.com/nicholaskh/dbproxy/parser/pull/51 for details
 func (s *testParserSuite) TestVisitFrameBound(c *C) {
 	parser := New()
 	parser.EnableWindowFunc(true)
@@ -2976,7 +2976,7 @@ func (s *testParserSuite) TestFieldText(c *C) {
 	}
 }
 
-// See https://github.com/dbproxy/parser/issue/94
+// See https://github.com/nicholaskh/dbproxy/parser/issue/94
 func (s *testParserSuite) TestQuotedSystemVariables(c *C) {
 	parser := New()
 
@@ -3037,7 +3037,7 @@ func (s *testParserSuite) TestQuotedSystemVariables(c *C) {
 	}
 }
 
-// See https://github.com/dbproxy/parser/issue/95
+// See https://github.com/nicholaskh/dbproxy/parser/issue/95
 func (s *testParserSuite) TestQuotedVariableColumnName(c *C) {
 	parser := New()
 

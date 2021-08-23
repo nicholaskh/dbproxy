@@ -17,7 +17,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log"
 )
 
 // JSONEncode return json encoding of v

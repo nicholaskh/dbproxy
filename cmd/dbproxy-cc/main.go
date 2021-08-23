@@ -22,12 +22,12 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/dbproxy/cc"
-	"github.com/dbproxy/core"
+	"github.com/nicholaskh/dbproxy/cc"
+	"github.com/nicholaskh/dbproxy/core"
 
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/log/xlog"
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log/xlog"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 var ccConfigFile = flag.String("c", "./etc/gaea_cc.ini", "gaea cc配置")

@@ -17,9 +17,9 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/proxy/router"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/proxy/router"
 )
 
 // ColumnNameExprDecorator decorate ColumnNameExpr to rewrite table name

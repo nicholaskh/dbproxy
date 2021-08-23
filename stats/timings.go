@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dbproxy/util/sync2"
+	"github.com/nicholaskh/dbproxy/util/sync2"
 )
 
 // Timings is meant to tracks timing data

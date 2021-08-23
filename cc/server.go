@@ -24,9 +24,9 @@ import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 
-	"github.com/dbproxy/cc/service"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/cc/service"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/models"
 )
 
 // Server admin server

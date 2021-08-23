@@ -1,9 +1,9 @@
 package plan
 
 import (
-	"github.com/dbproxy/parser/ast"
-	"github.com/dbproxy/parser/format"
-	"github.com/dbproxy/parser/types"
+	"github.com/nicholaskh/dbproxy/parser/ast"
+	"github.com/nicholaskh/dbproxy/parser/format"
+	"github.com/nicholaskh/dbproxy/parser/types"
 	"github.com/pingcap/errors"
 	"io"
 )

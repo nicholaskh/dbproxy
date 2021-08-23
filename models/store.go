@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dbproxy/log"
-	etcdclient "github.com/dbproxy/models/etcd"
-	fileclient "github.com/dbproxy/models/file"
+	"github.com/nicholaskh/dbproxy/log"
+	etcdclient "github.com/nicholaskh/dbproxy/models/etcd"
+	fileclient "github.com/nicholaskh/dbproxy/models/file"
 )
 
 // config type

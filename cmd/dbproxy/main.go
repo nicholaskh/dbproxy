@@ -22,11 +22,11 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/dbproxy/core"
-	"github.com/dbproxy/log"
-	"github.com/dbproxy/log/xlog"
-	"github.com/dbproxy/models"
-	"github.com/dbproxy/proxy/server"
+	"github.com/nicholaskh/dbproxy/core"
+	"github.com/nicholaskh/dbproxy/log"
+	"github.com/nicholaskh/dbproxy/log/xlog"
+	"github.com/nicholaskh/dbproxy/models"
+	"github.com/nicholaskh/dbproxy/proxy/server"
 )
 
 var configFile = flag.String("config", "etc/gaea.ini", "gaea config file")

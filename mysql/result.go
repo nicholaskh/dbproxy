@@ -34,8 +34,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/dbproxy/core/errors"
-	"github.com/dbproxy/util/hack"
+	"github.com/nicholaskh/dbproxy/core/errors"
+	"github.com/nicholaskh/dbproxy/util/hack"
 )
 
 // RowData row in []byte format

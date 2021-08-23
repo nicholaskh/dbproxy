@@ -15,7 +15,7 @@
 package backend
 
 import (
-	"github.com/dbproxy/mysql"
+	"github.com/nicholaskh/dbproxy/mysql"
 )
 
 // PooledConnection app use this object to exec sql
