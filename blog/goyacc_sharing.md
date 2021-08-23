@@ -5,7 +5,7 @@
 
 ![DB扩容.png](https://github.com/nicholaskh/dbproxy/blob/master/blog/images/DB%E6%89%A9%E5%AE%B9.png)
 
-因此我们开发了一套Mysql Proxy，来解决业务开发过程中遇到的以上诸多问题，帮助业务处理架构的底层逻辑，使业务开发能够更加聚焦于上层的业务逻辑。Mysql Proxy介绍猛戳[MySQL Proxy](https://cloud.xesv5.com/docs/mysqlproxy/)。
+因此我们开发了一套Mysql Proxy，来解决业务开发过程中遇到的以上诸多问题，帮助业务处理架构的底层逻辑，使业务开发能够更加聚焦于上层的业务逻辑。Mysql Proxy介绍猛戳[MySQL Proxy](https://github.com/nicholaskh/dbproxy/)。
 
 **那么在Mysql Proxy里我们是怎么来做分表分库呢？**
 
